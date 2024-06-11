@@ -1,0 +1,182 @@
+body {
+    /*background-image: linear-gradient(185deg, #9f9f9f 0, #395483 50%, #001965 100%);
+*/
+background: rgb(0,0,0);
+background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(102,129,207,1) 50%, rgba(0,0,0,1) 100%);
+}
+
+/*-------------------HEADER------------------------*/
+header {
+
+    width: 100%;
+    padding-bottom: 1px;
+    padding-top: 2px;
+
+}
+
+.h1Header {
+    text-align: center;
+    font-size: 5em;
+}
+
+.nav {
+    width: 97%;
+}
+
+.ulNav {
+    list-style-type: none;
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin: 0;
+
+}
+.liNav{
+    margin: auto;
+}
+
+.aNav {
+    text-decoration: none;
+    font-size: x-large;
+    border: 1px solid black;
+    padding: 1em;
+    transition: ease 0.3s;
+    color:rgb(216, 211, 211);
+}
+
+.aNav:hover {
+    background-color: black;
+    color: white;
+}
+
+#aNavActivo {
+    background-color: black;
+    color: white;
+}
+
+.NavBuscar {
+    margin: auto;
+    font-size: x-large;
+    text-align: center;
+    border-radius: 1em;
+}
+
+/*-----------------------------------------------------------*/
+
+section {
+    width: 100%;
+
+}
+
+.IndexArticleTitulo{
+    font-size: xx-large;
+}
+article {
+    font-size: x-large;
+}
+
+.IndexSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+
+}
+
+.IndexArticle {
+    width: 70%;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2%;
+    margin: auto;
+    background-color: #5b638f;
+    transition: 0.3s ease;
+
+}
+.IndexArticle:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) -10px 10px, rgba(0, 0, 0, 0.3) -15px 15px, rgba(0, 0, 0, 0.2) -20px 20px, rgba(0, 0, 0, 0.1) -25px 25px, rgba(0,0, 0, 0.05) -30px 30px;
+}
+
+.IndexArticleImg {
+    width: 100%;
+    height: 100%;
+}
+
+.IndexArticleDiv2 {
+    text-align: center;
+    height: auto;
+}
+
+.IndexArticleDiv1 a {
+    text-decoration: none;
+    color: black;
+}
+
+/*---------------------1Jugador---------------------------------------*/
+.UnJugadorTitulo{
+    font-size: xx-large;
+    text-align: center;
+
+}
+.ListaJuegos1Jugador{
+    width: 80%;
+    display:flex;
+    flex-wrap: wrap;
+    margin: auto;
+    box-sizing: border-box;
+    align-items: stretch;
+   
+}
+.ArticleLista1Jugador{
+    width: 20%;
+    height:fit-content;
+    box-sizing: border-box;
+    align-content: center;
+    transition: 0.3s ease ;
+}
+.ArticleLista1Jugador:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) -10px 10px, rgba(0, 0, 0, 0.3) -15px 15px, rgba(0, 0, 0, 0.2) -20px 20px, rgba(0, 0, 0, 0.1) -25px 25px, rgba(0,0, 0, 0.05) -30px 30px;
+
+}
+.FigureLista1jugador{
+    margin: auto;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    box-sizing: border-box;
+    position: relative;
+}
+.ImgFigureLista1Jugador{
+    align-items: stretch;
+}
+
+
+/*------------------------------------------------------------*/
+footer {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3em;
+    color: white;
+    margin-bottom: 3em;
+}
+
+.divFooter {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+
+}
+.divFooterFrom{
+width: 50%;
+text-align: left;
+}
